@@ -1,0 +1,32 @@
+# Secrets: never commit these
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Test and tool caches
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Editors and operating system files
+.vscode/
+.idea/
+.DS_Store
+
+# Local databases and logs
+*.db
+*.sqlite3
+*.log
